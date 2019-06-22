@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Faster+One|Luckiest+Guy|Monoton|Press+Start+2P&display=swap">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Faster+One|Luckiest+Guy|Monoton|Press+Start+2P&display=swap">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Timely Trivia</title>
 </head> 
 <body>
-    <h1>Timely Trivia</h1>
-    <div id="template">
-        <h3>QUESTION</h3>
+    <div id="template" class="container">
+        <h1>Timely Trivia</h1>
+        <div id="game">
+            <p><span id="timer"></span></p>
+            <br>
+        </div>
+        
+        
+        <div>
+            <div id="results">
+        
+            </div> 
+        </div>
+
+        <div id="choices">
+            <button id="start">Begin Trivia! </button>
+            
+            <div id="options">
+
+            </div>
+        </div>
     </div>
+        
+
+
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
